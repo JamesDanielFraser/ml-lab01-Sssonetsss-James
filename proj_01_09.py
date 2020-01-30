@@ -75,7 +75,7 @@ def get_gutenTexts(numTexts = 2):
             getresult = rsession.get(url)
             ## Insert code to split lines from the lab here.
             # remember the text of the result is getresult.text
-            lines =  ????
+            lines =  getresult.text.split() #????
             gutenText = extract_GutenText((lines))
             texts.append(gutenText)
             # quit once we exceed the allowed number of texts

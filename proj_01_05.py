@@ -40,7 +40,6 @@ def extract_GutenText(lines):
 
     # look for the first blank line before that point
 
-
     result = a slice of the list that is just the text of the ebook.  Don't include the blank lines in the slice
     if len(result) == 0:
         raise ValueError("Book is empty.  May not have the right start and end markers.")
